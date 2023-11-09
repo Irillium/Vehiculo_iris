@@ -2,7 +2,7 @@ public class Ventas {
     private String codigoDeVenta;
     private String fechaDeLaVenta;
     private String cliente;
-    private String vehículo;
+    private String vehiculo;
     private String formaDePago;
     private String precioDeVenta;
 
@@ -30,12 +30,12 @@ public class Ventas {
         this.cliente = cliente;
     }
 
-    public String getVehículo() {
-        return vehículo;
+    public String getVehiculo() {
+        return vehiculo;
     }
 
-    public void setVehículo(String vehículo) {
-        this.vehículo = vehículo;
+    public void setVehiculo(String vehiculo) {
+        this.vehiculo = vehiculo;
     }
 
     public String getFormaDePago() {

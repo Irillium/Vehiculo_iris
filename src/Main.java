@@ -21,13 +21,13 @@ public class Main {
 
         Ventas venta = new Ventas();
         venta.setCliente(cliente.getFullName());
-        venta.setVehículo(coche.getFullName());
+        venta.setVehiculo(coche.getFullName());
         venta.setCodigoDeVenta("1hu893yrg38");
         venta.setFechaDeLaVenta("20/12/2023");
         venta.setFormaDePago("Cheque");
         venta.setPrecioDeVenta("2,5 millones de euros");
         System.out.println(venta.getCliente());
-        System.out.println(venta.getVehículo());
+        System.out.println(venta.getVehiculo());
         System.out.println(venta.getCodigoDeVenta());
         System.out.println(venta.getFechaDeLaVenta());
         System.out.println(venta.getFormaDePago());
