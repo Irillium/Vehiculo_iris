@@ -26,12 +26,15 @@ public class Main {
         venta.setFechaDeLaVenta("20/12/2023");
         venta.setFormaDePago("Cheque");
         venta.setPrecioDeVenta("2,5 millones de euros");
-        System.out.println("Datos de venta");
-        System.out.println(venta.getCliente());
-        System.out.println(venta.getVehiculo());
+        System.out.println("Datos de la venta:");
         System.out.println(venta.getCodigoDeVenta());
         System.out.println(venta.getFechaDeLaVenta());
         System.out.println(venta.getFormaDePago());
         System.out.println(venta.getPrecioDeVenta());
+        System.out.println("");
+        System.out.println("Datos del cliente:");
+        System.out.println(venta.getCliente());
+        System.out.println("Datos del vehiculo:");
+        System.out.println(venta.getVehiculo());
     }
 }
